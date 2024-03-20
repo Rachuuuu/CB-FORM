@@ -1,0 +1,236 @@
+
+.cb-logo-img
+{
+    height: 100px;
+    width: 40%;
+    margin-bottom :70px;
+    margin-right: 100px; 
+   /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Student-Application-Form
+{
+    height: 100px;
+    width: 30%;
+   /* border: 2px solid orange; */
+   text-decoration: underline;
+}
+.Application-Form
+{
+    margin-right: 2%;
+}
+.Enquiry-Info
+{
+    height: 100px;
+   /* border: 2px solid purple;*/
+    width: 30%;
+}
+.enquiry-Info
+{
+    margin-left: 58%; 
+}
+
+
+
+.choose-course,
+.Choose-course-text,
+.choose-centre,
+.choose-centre-table,
+.choose-centre-text,
+.connect,
+.connect-text-table,
+.connect-text,
+.VMc-roll,
+.VMc,
+.cb,
+last-section,
+.last
+{
+    margin-left: 26px;
+}
+
+
+
+.cb-text
+{
+    height: 20px;
+    width: 15%;
+   
+}
+
+
+/*USER   INFORMATION ---------------------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.user-details-field
+{
+   font-size: 20px;
+   margin: 10px 0;
+}
+
+.user-details-table
+{
+    margin-left: 20px;
+  /*  border: 2px solid black; */
+    margin-bottom: 23px;
+    margin-top: -10px;
+}
+
+/* text-1 */
+.user-fields-text-1
+{
+    float: left;
+    
+    width: 30%;
+  /*  border: 2px solid orangered; */
+}
+.user-details-field-1
+{
+  /* border: 2px solid orange; */
+  height: 23.4px;
+  font-size: 15px;
+}
+/* input-1 */
+.user-details-input-1
+{
+  width: 60%;
+  height: 18px;
+ /*  border: 2px solid purple;  */
+}
+.user-fields-input-1
+{
+    float: right;
+    width: 50%;
+    height: 150px;
+ /*   border: 3px solid rgb(210, 10, 160);   */
+   
+}
+
+/* text-2 */
+.user-fields-text-2
+{
+     float: left;
+     width: 40%;
+    margin-right: 100px;
+  /*   border: 3px solid orangered;   */
+}
+.user-details-field-2
+{
+    float: right;
+    width: 100%;
+    height: 23px;
+   
+  /*  border: 2px solid slategrey;   */
+}
+/* input-2 */
+.user-fields-input-2
+{
+   height: 150px;
+  
+  /*  border: 5px solid peru;  */
+}
+.user-details-input-2
+{
+  /*  border: 2px solid lightcoral;  */
+   height: 18px;
+   width: 131px;
+   margin-left: -60px;
+}
+.user-details-state-option
+{
+    width: 134px;
+    margin-left: -60px;   
+}
+.user-details-info-1
+{
+  /*  border: 3px solid black;  */
+    width: 400px; 
+}
+.user-details-info-2
+{
+  /*  border: 3px solid black;  */
+    width: 400px; 
+}
+
+/* choose course */
+.course-table
+{
+    height: 250px;
+  /*  border: 2px solid black; */
+  margin-left: 21px;
+}
+/* choose centre */
+.choose-centre-table
+{
+   /* border: 2px solid black; */
+    width: 300px;
+}
+
+
+/* How to know  about us-------------------------------------------*/
+.connect-text-table
+{
+  /*   border: 3px solid orange; */
+    width:60%;
+}
+.connect-text
+{
+    width: 100%;
+  /*  border: 2px solid green; */
+}
+.connect-input
+{
+    margin-right: 40px;
+  /*  border: 3px solid purple; */
+    width: 20%;
+}
+.connect-input-1
+{
+  width: 13%;
+}
+.connect-text-1
+{
+  /*  border: 2px solid black; */
+    width: 800px;
+}
+
+/*--VMC INFORM--------------------------------------------*/
+.VMc
+{
+  /*  border: 2px solid black; */
+    width: 450px;
+}
+
+.VMC-text-1
+{
+   /* border: 2px solid green; */
+    width: 50%;
+}
+.VMC-text-2
+{
+  /* border: 2px solid brown; */
+}
+
+/* Last Section-----------------------------------------------*/
+.last
+{
+    height: 20px;
+    width: 40%;
+    
+}
+
+.first-row
+{
+  height: 40px;
+  width: 60%;
+}
+.second-row
+{
+    height: 40px;
+    width: 60%;
+}
