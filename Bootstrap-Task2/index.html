@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+
+</head>
+<body>
+
+   <nav class="navbar-nav bg-dark position-fixed-top w-100" >
+    <div class="d-flex justify-content-between">
+        <div class="navbarItem text-white d-flex justify-content-around w-50 ">
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">About</a>
+            <a href="" class="nav-link">Special Guest</a>
+            <a href="" class="nav-link">Events</a>
+          </div>
+     
+          <div class="navbarItem d-flex w-25 align-items-center ">
+             <div class="conatiner-fluid">
+               <a  class="navbar-brand text-white " href="#">Coding Blocks</a>
+             </div>
+             <!--
+             <div class="container">
+                 <a class="navbar-brand" href="#">
+                   <img src="data:image/jpeg;base64,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" alt="Bootstrap" width="30" height="24">
+                 </a>
+             </div>
+             -->
+          </div>
+    </div>
+   </nav>
+
+   <!-- Comicon-Main-Heading-Starting -->
+   <div class="continer-fluid  bg-secondary-subtle" style="height: 320px;">
+
+    <div class="row text-center">
+        <div class="comicConHeading display-1 mt-5">Comic-Con!</div>
+        <h5 class="mt-3">Coming Soon to Coding Blocks.</h5>
+        <div class="btnGroup mt-3">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+    </div>
+
+   </div>
+
+ <!-- About Website Container starts------------------------------------ --->
+ <div class="Container-Below-corousel  w-100 d-flex justify-content-center " style="height: 500px;">
+
+    <div class="about-comic-con    mt-5   " style="height: 230px; width: 335px;">
+      <div class="about-comic-con-heading fs-4 ">About Comic-Con</div>
+      <div class="about-comic-con-text  fs-6" style="width: 316px;">A comic book convention or comic con is an event with 
+       a primary focus on comic books and comic book culture,in which comic book fans gather 
+       to meet creators ,experts, and each other.Commonly, comic conventions are multi-day 
+       events hosted at convention centers, hotels, or college campuses </div>
+    </div>
+
+    <div class="comic-con-importance    mt-5   " style="height: 416px; width: 360px;">
+        <div class="comic-con-importance-heading  fs-4">Comic-Con Importance</div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwhl6VMXHTXJZxwUCTdjwqCSpdJy24BeX3nmgBeXir4neMV5ZT" alt="">
+        <div class="comic-con-importance-text  fs-6" style="width: 338px;">A comic book convention or comic con is an event with 
+         a primary focus on comic books and comic book culture,in which comic book fans gather 
+         to meet creators ,experts, and each other.Commonly, comic conventions are multi-day 
+         events hosted at convention centers, hotels, or college campuses </div>
+      </div>
+
+
+    <div class="Exciting-things   mt-5 " style="height: 250px; width: 25%;">
+      <div class="Exciting-things-heading fs-4">Exciting Things</div>
+     <div class="Exciting-Things-button-1 text-start  border border-1 " style="width: 100%; height: 40px;"> The Batwomen CW Show</div>
+     <div class="Exciting-Things-button-2 text-start  border border-1" style="width: 100%; height: 40px;"> The Marvel Hall H Panel</div>
+     <div class="Exciting-Things-button-3 text-start  border border-1" style="width: 100%; height: 40px;"> The Game of Thrones Reunions</div>
+     <div class="Exciting-Things-button-4 text-start  border border-1" style="width: 100%; height: 40px;"> Lots of Star Trek</div>
+    </div>
+
+
+ </div>
+ <!-- About Website Container ends--------------------------------------->
+
+
+ <!--Special Guest Container starts----------------------------------------->
+  
+   <div class="Special-Guest-container " style="height: 950px ; width: 100%;">
+
+  <div class="Special-Guest-Container1" style="height: 80px ; width: 100% ;"> 
+    
+   <div class="Special-Guest-Main-Heading  fs-1 fw-semibold text-body-secondary text-center" style="height: 80px; width: 100%;" >Special Guest</div>
+
+   </div>
+
+  <div class="Special-Guest-Container2  d-flex flex-wrap justify-content-around  m-auto" style="height: 850px ; width: 70% ;"> 
+
+   <div class="Special-Guest-box1 " style="height: 400px; width: 26%;"> 
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHunN3K__M05DUkAvza_bv1-3w5oTmS6A8yxTr1pYcHs9HQ9Ou" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Jason Fabok</div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+   <div class="Special-Guest-box2 " style="height: 400px; width: 26%;">
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmQGLrRrxfsAfPkaN6uRYmY-_75PjwuiffclEQIqHP1u38mv0K" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Mark Evanier</div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+
+   <div class="Special-Guest-box3  "  style="height: 400px; width: 26%;">
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoGtJ8w7TgkDLJmQPWOlzdvAEuWxaatw2Mg8OjULAiz5qCZi9j" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Michael Dante</div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+
+   <div class="Special-Guest-box4 "  style="height: 400px; width: 26%;">
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl5-GRqjD9cmzcHIoDBkEB0AT02zI3du4OGcSJZ-0AZZ6yZhJrwsHla744QQ&s" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Colin Farrell</div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+   <div class="Special-Guest-box5"  style="height: 400px; width: 26%;">
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ug014P21s218wIPnU9cxRvalsRDTgrkUKn5mSz5mK_T2cqq5" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Michael Broussard </div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+   <div class="Special-Guest-box6 "  style="height: 400px; width: 26%;">
+      <img class="" style="height: 270px; width: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsU0ffqiCPIEntgx47E5Sp_zzu94Vze9b_rw&usqp=CAU" alt=""> 
+      <div class="Special-Guest-box-texttt  " style="height: 118px; width: 100%;">
+         <div class="box1-heading  fs-5 fw-medium mx-auto" style="width: 90%; height: 30px;">Stan Lee</div>
+         <div class="box1-heading-text   lh-base  mx-auto" style="width: 90%; height: 80px;">Jason Fabok is a Canadian comic-book artist. His work has been featured in series</div>
+      </div>
+   </div>
+
+
+</div>
+ 
+
+   </div>
+ <!--Special Guest Container ends------------------------------------------->
+
+  <div class="Schedule-container " style="height:700px ; width: 100%;">
+
+    <div class="Schedule-container-heading fs-1 fw-semibold text-body-secondary text-center " style="height: 65px; width: 100%;">Schedule</div>
+
+    <div class="Schedule-container1-box  m-auto" style=" height: 300px; width: 67%;">
+    
+    <div class="Schedule-container1-box1-text1 border border-1  "  style="height: 50px; width: 100%;">
+      <div class="box1-text1  fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">Terminator:Dark Fate</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1" href="#" role="button" style="height: 37px; width: 11%;" >9:00 am</button>
+    </div>
+
+    <div class="Schedule-container1-box1-text2 border border-1 fs-5 fw-medium" style="height: 50px; width: 100%;">
+      <div class="box1-text1  fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">Batman Beyond 20th Anniversary</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1" href="#" role="button" style="height: 37px; width: 11%;" >11:00 am</button>
+    </div>
+
+    <div class="Schedule-container1-box1-text3 border border-1 fs-5 fw-medium" style="height: 50px; width: 100%;">
+      <div class="box1-text1  fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">Lunch Break!</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1" href="#" role="button" style="height: 37px; width: 11%;" >1:00 am</button>
+    </div>
+
+    <div class="Schedule-container1-box1-text4 border border-1 fs-5 fw-medium" style="height: 50px; width: 100%;">
+      <div class="box1-text1  fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">SpongeBob's Big Birthday Blowout!</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1" href="#" role="button" style="height: 37px; width: 11%;" >3:00 am</button>
+    </div>
+
+    <div class="Schedule-container1-box1-text5 border border-1 fs-5 fw-medium" style="height: 50px; width: 100%;">
+      <div class="box1-text1  fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">Teen Titans GO!</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1" href="#" role="button" style="height: 37px; width: 11%;" >4:00 am</button>
+    </div>
+
+    <div class="Schedule-container1-box1-text6 border border-1 fs-5 fw-medium" style="height: 50px; width: 100%;">
+      <div class="box1-text1 fs-5 fw-medium float-start"  style="height: 40px; width: 50%;">Emergence</div>
+      <button class="btn btn-primary float-end btn rounded-pill mt-1 " href="#" role="button" style="height: 37px; width: 11%;" >5:00 am</button>
+    </div>
+
+
+
+    </div>
+
+
+<div class="Schedule-container2-box  m-auto mt-3 " style=" height: 300px; width: 67%;">
+
+   <div class="Schedule-Container-Comic-con float-start" style="height: 100%; width: 47%;"> 
+       <div class="Schedule-Container2-box-heading1">Comic-Con!</div>
+       <div class="Schedule-Container2-box-text  mt-3">
+         San Diego Comic-Con International is a non-profit multi-genre entertainment and 
+         comic book convention held annuallly in San Diego,California,United States. The name 
+         as given on its website , is Comic-con International: San Diego; but it is Commonly
+         known simply as Comic-Con or the San Diego Comic-Con or "SDCC".
+    </div>
+   </div>
+
+   <div class="schedule-Container-Sign-Up  float-end" style="height: 100%; width: 45%;">
+        <div class="Schedule-Container2-box-heading2">Sign Up!</div>
+        <div class="Recipient-information  mt-3 " style="height: 47px; width: 100%;"> 
+            <div class="Recipient-information-text float-start  border border-1" style="height: 43px; width: 84.7%;">
+             <div class="text mt-2">Recipient's username</div> 
+            </div>  
+            <button class="  btn btn-outline-secondary float-end border border-2" style="height: 43px; ">Button</button>
+        </div>
+  </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+
+    <!--SCRIPT TAG KA CODE HOTA HAI USSE BODY KE END MAIN LIKHNA CHAHAIYE-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
+
+
+  </body>
+</html>
